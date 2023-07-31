@@ -9,8 +9,7 @@
 (define kite (kestrel ibis))
 (define sterling (iota kestrel))
 (define not (kite kestrel))
-(define bluebird ((sterling (kestrel sterling)) kestrel\
-))
+(define bluebird ((sterling (kestrel sterling)) kestrel))
 (define cardinal ((sterling ((bluebird bluebird) sterli\
 ng)) (kestrel kestrel)))
 (define thrush (cardinal ibis))
