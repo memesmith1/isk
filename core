@@ -1,0 +1,17 @@
+(define iota (lambda (x)
+        ((x (lambda (x)
+                    (lambda (y)
+                            (lambda (z)
+                             ((x z)(y z))))))
+         (lambda (x) (lambda (y) x)))))
+(define ibis (iota iota))
+(define kestrel (iota (iota ibis)))
+(define kite (kestrel ibis))
+(define sterling (iota kestrel))
+(define not (kite kestrel))
+(define bluebird ((sterling (kestrel sterling)) kestrel\
+))
+(define cardinal ((sterling ((bluebird bluebird) sterli\
+ng)) (kestrel kestrel)))
+(define thrush (cardinal ibis))
+(define pair ((bluebird cardinal) thrush))
