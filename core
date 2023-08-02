@@ -13,3 +13,7 @@
 (define cardinal ((sterling ((bluebird bluebird) sterling)) (kestrel kestrel)))
 (define thrush (cardinal ibis))
 (define pair ((bluebird cardinal) thrush))
+(define eagle (bluebird ((bluebird bluebird) bluebird)))
+(define finch ((((eagle thrush) thrush) eagle) thrush))
+(define robin ((bluebird bluebird) thrush))
+(define y ((sterling ((robin ((sterling ibis) ibis)) bluebird)) ((robin ((sterling ibis) ibis)) bluebird)  ))
