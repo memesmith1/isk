@@ -4,26 +4,22 @@
 ((lambda (kestrel)
 ((lambda (kite)
 ((lambda (starling)
-((lambda (not)
 ((lambda (bluebird)
 ((lambda (cardinal)
 ((lambda (thrush)
-((lambda (pair)
+((lambda (viero)
 ((lambda (eagle)
 ((lambda (finch)
 ((lambda (robin)
 ((lambda (y)
 
 
-
-((kestrel 2) 3)
-
+2
 
 
 )
 
-((starling ((robin ((starling ibis) ibis)) bluebird)) ( (robin ((starling ibis) i\
-bis)) bluebird)) ;
+((starling ((robin ((starling ibis) ibis)) bluebird)) ( (robin ((starling ibis) ibis)) bluebird)) ;
 
 ))
 
@@ -39,7 +35,7 @@ bis)) bluebird)) ;
 
 ))
 
-((bluebird cardinal) thrush) ; pair
+((bluebird cardinal) thrush) ; viero
 
 ))
 
@@ -52,10 +48,6 @@ bis)) bluebird)) ;
 ))
 
 ((starling (kestrel starling)) kestrel) ; bluebird
-
-))
-
-(kite kestrel) ; not
 
 ))
 
