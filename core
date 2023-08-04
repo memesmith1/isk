@@ -5,11 +5,12 @@
 ((lambda (kite)
 ((lambda (starling)
 ((lambda (bluebird)
+((lambda (dove)
 ((lambda (cardinal)
 ((lambda (thrush)
 ((lambda (viero)
+((lambda (blackbird)
 ((lambda (eagle)
-((lambda (finch)
 ((lambda (robin)
 ((lambda (y)
 
@@ -23,15 +24,15 @@
 
 ))
 
-((bluebird bluebird) thrush) ; robin
+(dove thrush) ; robin
 
 ))
 
-((((eagle thrush) thrush) eagle) thrush) ; finch
+(bluebird blackbird) ; eagle
 
 ))
 
-(bluebird ((bluebird bluebird) bluebird)) ; eagle
+(dove bluebird) ; blackbird
 
 ))
 
@@ -43,7 +44,11 @@
 
 ))
 
-((starling ((bluebird bluebird) starling)) (kestrel kestrel)) ; cardinal
+((starling (dove starling)) (kestrel kestrel)) ; cardinal
+
+))
+
+(bluebird bluebird) ; dove
 
 ))
 
