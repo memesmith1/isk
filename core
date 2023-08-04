@@ -21,18 +21,64 @@
 
 
 )
-((starling ((robin ((starling ibis) ibis)) bluebird)) ( (robin ((starling ibis) ibis)) bluebird))))
-((bluebird bluebird) thrush)))
-((((eagle thrush) thrush) eagle) thrush)))
-(bluebird ((bluebird bluebird) bluebird))))
-((bluebird cardinal) thrush)))
-(cardinal ibis)))
-((starling ((bluebird bluebird) starling)) (kestrel kestrel))))
-((starling (kestrel starling)) kestrel)))
-(kite kestrel)))
-(iota kestrel)))
-(kestrel ibis)))
-(iota (iota ibis))))
-(iota iota)))
-(lambda (x) ((x (lambda (x) (lambda (y) (lambda (z) ((x z)(y z)))))) (lambda (x) (lambda (y) x)))))
+
+((starling ((robin ((starling ibis) ibis)) bluebird)) ( (robin ((starling ibis) i\
+bis)) bluebird)) ;
+
+))
+
+((bluebird bluebird) thrush) ; robin
+
+))
+
+((((eagle thrush) thrush) eagle) thrush) ; finch
+
+))
+
+(bluebird ((bluebird bluebird) bluebird)) ; eagle
+
+))
+
+((bluebird cardinal) thrush) ; pair
+
+))
+
+(cardinal ibis) ; thrush
+
+))
+
+((starling ((bluebird bluebird) starling)) (kestrel kestrel)) ; cardinal
+
+))
+
+((starling (kestrel starling)) kestrel) ; bluebird
+
+))
+
+(kite kestrel) ; not
+
+))
+
+(iota kestrel) ; starling
+
+))
+
+(kestrel ibis) ; kite
+
+))
+
+(iota (iota ibis)) ; kestrel
+
+))
+
+(iota iota) ; ibis
+
+))
+
+(lambda (x) ((x (lambda (x) (lambda (y) (lambda (z) ((x z)(y z)))))) (lambda (x) \
+(lambda (y) x))) ; iota
+
+))
+
+
 )
