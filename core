@@ -12,6 +12,7 @@
 ((lambda (blackbird)
 ((lambda (eagle)
 ((lambda (robin)
+((lambda (owl)
 ((lambda (y)
 
 
@@ -20,7 +21,11 @@
 
 )
 
-((starling ((robin ((starling ibis) ibis)) bluebird)) ( (robin ((starling ibis) ibis)) bluebird)) ;
+((starling ((robin (owl ibis)) bluebird)) ((robin (owl ibis)) bluebird)) ; y
+
+))
+
+(starling ibis) ; owl
 
 ))
 
